@@ -1,0 +1,211 @@
+body
+{
+	background: #31393D;
+	margin-left: 0px;
+	margin-top: 0px;
+	height: 100vh;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+.Menu
+{
+	background-color:#242B2E;
+	width: 200px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	height: 100%;
+	box-shadow: 0 0 35px 12px black;
+	float: left;
+	position: fixed;
+}
+
+.Photo
+{
+	background-image: url('profile.png');
+	 background-size: 200px 200px;
+	 height: 200px;
+	 margin-top: 0px;
+}
+
+.Nav-list
+{
+	margin-top: 50px;
+	height: 200px;
+	margin-left: 0px;
+	padding-left: 0px;
+	text-align: center;
+
+}
+
+.Nav-list li
+{
+	font-family: 'Baloo Chettan', cursive;
+	color: #cccccc;
+	height: 45px;
+	border-top: 2px solid #242B2E;
+	list-style-type: none;
+	margin-left: 0px;
+	padding-top: 25px;
+	background-color: #31393D;
+	text-decoration: none;
+}
+
+li:hover
+{
+	box-shadow: inset 0 0 10px #000000;
+	cursor:pointer;
+	cursor: hand;
+	text-shadow: 0 0 3px #8c8c8c;
+}
+
+a
+{
+	text-decoration: none;
+	color:#cccccc;
+}
+
+.header
+{
+	background-image: url('cover.jpg');
+	height: 100vh;
+	padding-top: 0px;
+	text-align: center;
+	width: 100%;
+	margin-left: 200px;
+	margin-right: 0px;
+	padding-right: 0px;
+	position: relative;
+	box-shadow: 0 0  35px 12px black;
+	float: right;
+}
+
+.first-part
+{
+	font-family: 'Baloo Chettan', cursive;
+	font-size: 40px;
+	color: #cccccc;
+	height: 100vh;
+	margin-top: 0px;
+	float: right;
+	clear: both;
+	margin-left:400px;
+	margin-right: 200px;
+	padding-top: 50px;
+
+
+}
+
+.second-part, .third-part
+{
+	font-family: 'Baloo Chettan', cursive;
+	color: #cccccc;
+	height: 100vh;
+	margin-top: 0px;
+	float: right;
+	clear: both;
+	margin-left:0px;
+	margin-right: 0px;
+	padding-top: 50px;
+	box-shadow: inset 0 0 20px #000000;
+
+}
+
+.third-part
+{
+	box-shadow: 0 0  25px 5px black;
+	padding-left: 900px;
+	padding-right: 200px;
+}
+
+.fa.fa-angle-down
+{
+	position: absolute;
+	margin-top: 600px;
+	margin-left: -38%;
+	color: #cccccc;
+	text-shadow: 0 0 3px #8c8c8c;
+}
+
+.fa.fa-angle-down:hover
+{
+	cursor:pointer;
+	cursor: hand;
+}
+
+.fa.fa-user, .fa.fa-comment
+{
+	width: 20px;
+	height: 50px;
+	color: #cccccc;
+	margin-right: 10px;
+	margin-left: -25px;
+}
+
+.fa.fa-code
+{
+	margin-right: 15px;
+	margin-left: -20px;
+}
+
+.ContactForm
+{
+	font-size: 20px;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	border-radius: 5px;
+	box-shadow: inset 0 0 20px #000000;
+	float: right;
+
+}
+
+input, textarea
+{
+	border-radius: 3px;
+}
+
+#SubmitButton
+{
+	font-family: 'Baloo Chettan', cursive;
+	color: #cccccc;
+	background-color: #242B2E;
+	border: none;
+	margin-top: 10px;
+	height: 40px;
+	width: 110px;
+}
+
+#SubmitButton:hover
+{
+	color: #31393D;
+}
+
+#title
+{
+	margin-left: 15%;
+	color: #cccccc;
+	font-size: 100px;
+}
+
+#formText
+{
+	position: absolute;
+	float: left;
+	margin-left: -450px;
+	font-size: 27px;
+}
+
+#first-part-p
+{
+	margin-left: 200px;
+	font-size: 25px;
+}
+
+.imgSlide
+{
+	margin-left: 200px;
+	margin-right: 130px;
+}

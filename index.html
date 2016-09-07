@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/jscript.js"></script>
+
+	<title></title>
+</head>
+
+<body>
+	<div class="Content">
+		<!-- ....................................................................... -->
+		<div class="header">
+			<span id="title">WEB DEVELOPMENT</span>
+			<i class="fa fa-angle-down fa-5x" id="arrow-down"></i>
+		</div>
+		<div class="Menu">
+			<div class="Photo"></div>
+			<ul class="Nav-list">
+				<span id="About" onclick="ScrollFunction('About');"><li><i class="fa fa-user fa-1x"></i>About me</li></span>
+				<span id="Portfolio"><li><i class="fa fa-code"></i>Portfolio</li></span>
+				<span id="Contact"><li><i class="fa fa-comment fa-1x"></i>Contact</li></span>
+			</ul>
+		</div>
+		<!-- ............................................................................ -->
+		<div class="first-part">
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+				survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+			</p>
+		</div>
+		<!-- ...................................................... -->
+		<div class="second-part">
+			<p id="first-part-p">
+				These are some of the projects i worked on:
+			</p>
+			<img class="imgSlide" src="bg/slide1.jpg" alt="" />
+		</div>
+		<!-- ............................................................ -->
+		<div class="third-part">
+			<span id="formText">If you have any questions,<br> or you would like to work with me,<br> please feel free to contact me:</span>
+
+			<form class="ContactForm" action="index.html" method="post">
+				<div class="row">
+					<label for="Name">Your name:</label>
+					<br>
+					<input id="Name" type="text" name="name" value="">
+				</div>
+				<div class="row">
+					<label for="Email">Your e-mail:</label>
+					<br>
+					<input id="Email" type="text" name="name" value="">
+				</div>
+				<div class="row">
+					<label for="Message">Your message:</label>
+					<br>
+					<textarea name="name" rows="8" cols="40"></textarea>
+				</div>
+				<input id="SubmitButton" type="button" name="name" value="Send E-mail">
+			</form>
+
+
+		</div>
+	</div>
+
+</body>
+
+</html>
